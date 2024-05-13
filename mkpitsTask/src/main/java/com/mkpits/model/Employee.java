@@ -1,5 +1,6 @@
 package com.mkpits.model;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +27,9 @@ import lombok.Setter;
 @Entity
 @Table(name = "employees")
 public class Employee {
+
+	public Employee(long l, String string, String string2, long m, BigDecimal valueOf) {
+	}
 
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -23,7 +23,10 @@ import lombok.Setter;
 @Table(name = "addresses")
 public class Address {
 
-	    @Id
+	    public Address(String string, String string2, String string3, String string4) {
+	}
+
+		@Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    private Long id;
 	    
