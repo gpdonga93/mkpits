@@ -7,12 +7,19 @@ This project implements a RESTful API for managing employees and their addresses
 ### API Endpoints
 
 POST /api/employees: Create a new employee
+
 GET /api/employees: Get all employees without and with criteria (name)
+
 POST /api/employees/{employeeId}/address: Create a new address for an employee
+
 PUT /api/employees/{employeeId}: Update an existing employee
+
 PUT /api/employees/{employeeId}/address/{addressId}: Update an address of an employee
+
 GET /api/employees/{employeeId}: Get an employee by ID
+
 GET /api/employees/{employeeId}/addresses: Get all addresses of an employee
+
 DELETE /api/employees/{employeeId}: Delete an employee by ID
 
 
